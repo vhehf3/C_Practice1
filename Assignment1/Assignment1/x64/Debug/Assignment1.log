@@ -1,0 +1,3 @@
+﻿  SlotMachine.c
+D:\VS Project\새 폴더\Assignment1\Assignment1\SlotMachine.c(8,8): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Assignment1.vcxproj -> D:\VS Project\새 폴더\Assignment1\x64\Debug\Assignment1.exe

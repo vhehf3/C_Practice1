@@ -3,13 +3,15 @@
 #include <windows.h>
 
 int main() {
-	int linput, score = 50, slot1, slot2, slot3;
+	int linput, score = 50, slot1, slot2, slot3, stop1 = 30, stop2 = 15;
 
 	srand(time(NULL));
-
+	
 	while (score > 0) {
 		printf("레버를 당길 시간을 입력해주세요:\n");
 		scanf("%d", &linput);
+
+		if (linput < 40) linput = 40;
 
 		system("cls");
 
@@ -35,8 +37,8 @@ int main() {
 		}
 		else {
 			while (linput > 0) {
-				slot1 = rand() % 10;
-				slot2 = rand() % 10;
+				if (linput > stop1) slot1 = rand() % 10;
+				if (linput > stop2) slot2 = rand() % 10;
 				slot3 = rand() % 10;
 				printf("\r%d %d %d", slot1, slot2, slot3);
 				Sleep(50);

@@ -6,7 +6,7 @@ int main() {
 
 	int num, gNum, score = 0, reGame = 0;
 
-	num = rand() % 10 + 1;
+	num = rand() % 11;
 
 	for (int count = 2; count >= 0; count--) {
 		printf("0~10사이의 숫자 입력:");
@@ -18,7 +18,7 @@ int main() {
 			scanf("%d", &reGame);
 			if (reGame == 1) {
 				count = 3;
-				num = rand() % 10 + 1;
+				num = rand() % 11;
 			}
 			else if (reGame == 2) {
 				return 0;
@@ -26,7 +26,8 @@ int main() {
 		}
 		else if (num > gNum) {
 			if (count != 0) {
-				printf("입력한 수는 %d\n맞추지 못했습니다.\n%d보다 큰수입니다.\n점수:%d\n남은 시도는 %d입니다.\n계속 하시겠습니까?\n(1)예 (2)아니오\n", gNum, gNum, score, count);
+				if (num == 10) printf("입력한 수는 %d\n맞추지 못했습니다.\n점수:%d\n남은 시도는 %d입니다.\n계속 하시겠습니까?\n(1)예 (2)아니오\n", gNum, gNum, score, count);
+				else printf("입력한 수는 %d\n맞추지 못했습니다.\n%d보다 큰수입니다.\n점수:%d\n남은 시도는 %d입니다.\n계속 하시겠습니까?\n(1)예 (2)아니오\n", gNum, gNum, score, count);
 				scanf("%d", &reGame);
 				if (reGame == 2) {
 					return 0;
@@ -36,7 +37,8 @@ int main() {
 		}
 		else if (num < gNum) {
 			if (count != 0) {
-				printf("입력한 수는 %d\n맞추지 못했습니다.\n%d보다 작은수입니다.\n점수:%d\n남은 시도는 %d입니다.\n계속 하시겠습니까?\n(1)예 (2)아니오\n", gNum, gNum, score, count);
+				if (num == 0) printf("입력한 수는 %d\n맞추지 못했습니다.\n점수:%d\n남은 시도는 %d입니다.\n계속 하시겠습니까?\n(1)예 (2)아니오\n", gNum, gNum, score, count);
+				else printf("입력한 수는 %d\n맞추지 못했습니다.\n%d보다 작은수입니다.\n점수:%d\n남은 시도는 %d입니다.\n계속 하시겠습니까?\n(1)예 (2)아니오\n", gNum, gNum, score, count);
 				scanf("%d", &reGame);
 				if (reGame == 2) {
 					return 0;

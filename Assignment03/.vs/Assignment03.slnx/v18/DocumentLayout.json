@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VS Project\\\uC0C8 \uD3F4\uB354\\Assignment03\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A00D03D-D7DB-417E-9D28-DA80704BB2E6}|Assignment03\\Assignment03.vcxproj|D:\\VS Project\\\uC0C8 \uD3F4\uB354\\Assignment03\\Assignment03\\ex.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4A00D03D-D7DB-417E-9D28-DA80704BB2E6}|Assignment03\\Assignment03.vcxproj|solutionrelative:Assignment03\\ex.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A00D03D-D7DB-417E-9D28-DA80704BB2E6}|Assignment03\\Assignment03.vcxproj|D:\\VS Project\\\uC0C8 \uD3F4\uB354\\Assignment03\\Assignment03\\SimpleCalculatorSwitch.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4A00D03D-D7DB-417E-9D28-DA80704BB2E6}|Assignment03\\Assignment03.vcxproj|solutionrelative:Assignment03\\SimpleCalculatorSwitch.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A00D03D-D7DB-417E-9D28-DA80704BB2E6}|Assignment03\\Assignment03.vcxproj|D:\\VS Project\\\uC0C8 \uD3F4\uB354\\Assignment03\\Assignment03\\SimpleCalculatorIf.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4A00D03D-D7DB-417E-9D28-DA80704BB2E6}|Assignment03\\Assignment03.vcxproj|solutionrelative:Assignment03\\SimpleCalculatorIf.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ex.c",
+              "DocumentMoniker": "D:\\VS Project\\\uC0C8 \uD3F4\uB354\\Assignment03\\Assignment03\\ex.c",
+              "RelativeDocumentMoniker": "Assignment03\\ex.c",
+              "ToolTip": "D:\\VS Project\\\uC0C8 \uD3F4\uB354\\Assignment03\\Assignment03\\ex.c",
+              "RelativeToolTip": "Assignment03\\ex.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-06-29T06:16:47.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SimpleCalculatorSwitch.c",
+              "DocumentMoniker": "D:\\VS Project\\\uC0C8 \uD3F4\uB354\\Assignment03\\Assignment03\\SimpleCalculatorSwitch.c",
+              "RelativeDocumentMoniker": "Assignment03\\SimpleCalculatorSwitch.c",
+              "ToolTip": "D:\\VS Project\\\uC0C8 \uD3F4\uB354\\Assignment03\\Assignment03\\SimpleCalculatorSwitch.c",
+              "RelativeToolTip": "Assignment03\\SimpleCalculatorSwitch.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-06-29T06:05:37.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SimpleCalculatorIf.c",
+              "DocumentMoniker": "D:\\VS Project\\\uC0C8 \uD3F4\uB354\\Assignment03\\Assignment03\\SimpleCalculatorIf.c",
+              "RelativeDocumentMoniker": "Assignment03\\SimpleCalculatorIf.c",
+              "ToolTip": "D:\\VS Project\\\uC0C8 \uD3F4\uB354\\Assignment03\\Assignment03\\SimpleCalculatorIf.c",
+              "RelativeToolTip": "Assignment03\\SimpleCalculatorIf.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-06-29T05:36:37.741Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

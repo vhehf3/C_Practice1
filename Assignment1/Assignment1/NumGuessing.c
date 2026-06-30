@@ -20,34 +20,27 @@ int main() {
 				count = 3;
 				num = rand() % 11;
 			}
-			else if (reGame == 2) {
-				return 0;
-			}
+			else return 0;
 		}
-		else if (num > gNum) {
+		else {
 			if (count != 0) {
-				if (num == 10) printf("입력한 수는 %d\n맞추지 못했습니다.\n점수:%d\n남은 시도는 %d입니다.\n계속 하시겠습니까?\n(1)예 (2)아니오\n", gNum, gNum, score, count);
-				else printf("입력한 수는 %d\n맞추지 못했습니다.\n%d보다 큰수입니다.\n점수:%d\n남은 시도는 %d입니다.\n계속 하시겠습니까?\n(1)예 (2)아니오\n", gNum, gNum, score, count);
-				scanf("%d", &reGame);
-				if (reGame == 2) {
-					return 0;
+				printf("입력한 수는 %d\n맞추지 못했습니다.\n점수:%d\n남은 시도는 %d입니다.\n", gNum, score, count);
+				if (num > gNum) {
+					if (gNum != 9) {
+						printf("힌트:난수는 입력한 수%d보다 큽니다.\n", gNum);
+					}
 				}
-			}
-			else if (count == 0) goto quitGame;
-		}
-		else if (num < gNum) {
-			if (count != 0) {
-				if (num == 0) printf("입력한 수는 %d\n맞추지 못했습니다.\n점수:%d\n남은 시도는 %d입니다.\n계속 하시겠습니까?\n(1)예 (2)아니오\n", gNum, gNum, score, count);
-				else printf("입력한 수는 %d\n맞추지 못했습니다.\n%d보다 작은수입니다.\n점수:%d\n남은 시도는 %d입니다.\n계속 하시겠습니까?\n(1)예 (2)아니오\n", gNum, gNum, score, count);
-				scanf("%d", &reGame);
-				if (reGame == 2) {
-					return 0;
+				else if (num < gNum) {
+					if (gNum != 1) {
+						printf("힌트:난수는 입력한 수%d보다 작습니다.\n", gNum);
+					}
 				}
+				printf("계속 하시겠습니까 ? \n(1)예(2)아니오\n");
+				scanf("%d", &reGame);
+				if (reGame == 2) return 0;
 			}
-			else if (count == 0) goto quitGame;
 		}
 	}
-	quitGame:
 	printf("난수는 %d\n입력한 수는 %d\n맞추지 못했습니다.\n시도 횟수가 모두 소진되었습니다.\n총점수:%d\n게임이 종료되었습니다.\n", num, gNum, score);
 	return 0;
 }

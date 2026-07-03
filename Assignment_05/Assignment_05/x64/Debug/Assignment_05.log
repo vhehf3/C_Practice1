@@ -1,0 +1,9 @@
+﻿  FloatSum.c
+  main.c
+  Max.c
+  Min.c
+  Sum.c
+  코드를 생성하고 있습니다...
+D:\VS Project\새 폴더\Assignment_05\Assignment_05\main.c(14,27): warning C4305: '함수': 'double'에서 'float'(으)로 잘립니다.
+D:\VS Project\새 폴더\Assignment_05\Assignment_05\main.c(14,32): warning C4305: '함수': 'double'에서 'float'(으)로 잘립니다.
+  Assignment_05.vcxproj -> D:\VS Project\새 폴더\Assignment_05\x64\Debug\Assignment_05.exe
